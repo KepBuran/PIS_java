@@ -1,0 +1,219 @@
+body{
+    background: #B8E3FF;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+    background: #0583D2;
+    display: block;
+    height: 38px;
+    box-shadow: #0768a2 2px 2px 2px 0;
+}
+
+a.header-button {
+    font-weight: 600;
+    padding: 10px;
+    background-color: #0583D2;
+    color: #FFFFFF;
+    transition: background-color 0.2s linear;
+    text-align: center;
+}
+
+a.header-button:hover {
+    background-color: #056ba8;
+}
+
+
+a.left{
+    margin-right: 20px;
+    float: left;
+}
+a.right{
+    margin-left: 20px;
+    float: right;
+}
+/**/
+
+/*Main*/
+
+/*Welcome*/
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.welcome {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome-text {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    padding: 20px;
+    background-color: #ffffff;
+    display: inline-block;
+    color: #260148;
+    border-radius: 10px;
+}
+/**/
+
+/*Main menu*/
+.main-menu{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+a.menu-button{
+    border-bottom: #000000 1px solid;
+    width: 20%;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #16558F;
+    transition: background-color 0.2s linear;
+}
+
+a.menu-button:hover{
+    background-color: #144b7e;
+}
+
+a.top-button {
+    border-radius: 10px 10px 0 0;
+}
+
+a.bottom-button {
+    border-radius: 0 0 10px 10px;
+}
+/**/
+
+
+/**/
+div.packs-div {
+    width: 100%;
+    text-align: center;
+}
+
+div.pack{
+    border: #144b7e 3px solid;
+    background-color: #a3ffff;
+    color: black;
+    text-align: left;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    line-height: 30px;
+}
+
+div.question-div{
+    width: 100%;
+    text-align: center;
+}
+
+div.question {
+    background-color: #fffab9;
+    color: black;
+    text-align: left;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+}
+
+a.add-button{
+    float: right;
+    color: #ffffff;
+    font-weight: 800;
+    margin-right: 20px;
+    border-radius: 40%;
+    padding: 5px;
+    background-color: #0db700;
+    transition: background-color 0.2s linear;
+}
+
+a.add-button:hover{
+    background-color: #0e7c00;
+}
+
+a.back-button{
+    float: left;
+    color: #ffffff;
+    font-weight: 800;
+    margin-left: 10px;
+    border-radius: 20%;
+    padding: 5px;
+    background-color: #00478d;
+    transition: background-color 0.2s linear;
+}
+
+a.back-button:hover{
+    background-color: #012850;
+}
+
+a.pack-name {
+    text-decoration: none;
+    color: #0084ff;
+    font-weight: 800;
+}
+
+a.pack-open{
+    text-decoration: none;
+    background-color: #144b7e;
+    color: #00ff0a;
+    font-weight: 600;
+    float:left;
+    padding: 2px;
+    border-radius: 30%;
+}
+
+a.pack-open:hover{
+    background-color: #0f3559;
+}
+
+a.pack-delete{
+    text-decoration: none;
+    background-color: #144b7e;
+    color: #ff0000;
+    font-weight: 600;
+    float:right;
+    padding: 2px;
+    border-radius: 20%;
+}
+
+a.pack-delete:hover{
+    background-color: #0f3559;
+}
+
+form {
+    margin-left: 20px;
+}
+
+a.change-pack{
+    margin-left: 30px;
+    color: #01169b;
+}
+
+a.change-pack:hover{
+    color: #000870;
+}
+
+span.pack-name{
+    font-size: 30px;
+    margin-left: 20px;
+}
+/**/

@@ -1,0 +1,25 @@
+body {
+    background: #A0AECD;
+    font-family: "Noto Sans Georgian";
+    font-size: 32px;
+}
+
+form {
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #91b3f8;
+}
+
+.form-submit-button {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 100px;
+    width: 200px;
+    font-size: 32px;
+    font: bold 15px "Noto Sans Georgian";
+}
